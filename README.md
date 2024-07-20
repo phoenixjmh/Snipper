@@ -61,9 +61,11 @@ the user's saved directory is stored in *$HOMEDIRECTORY/**./snipper_config***
     - Linux: `cmake --install .`
     - Windows: Add the folder containing the built *snipper.exe* to system environment variables as a new entry under PATH
     
-*** 
 
-   
+
+  ## :question: Why I built this:
+  When I was first starting out programming, I often switched frequently between languages, which, in my case, led to an overwhelmingly disorganized file system cluttered with random code files deeply nested in forgotten-about directories. I could never bring myself to delete these files, as they always contained code that I might want to go back to later, yet when it came time to find them, I had no idea where to look. The idea behind this was making a *very* simple solution, that could be called **quickly** and **easily**, otherwise there was no hope I would use it.
+  
 
 
 
