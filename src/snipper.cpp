@@ -171,6 +171,14 @@ void WriteOutputFile(const fs::path& input_filepath, const fs::path& output_file
         return;
     }
 
+    inFile.seekg(0, std::ios::end);
+    if (inFile.tellg() == 0)
+    {
+        std::cerr << "Error: Input file is empty: " << input_filepath << "\n";
+        return;
+    }
+    inFile.seekg(0, std::ios::beg);  
+
     outFile << inFile.rdbuf();
 
     if (outFile.fail())
