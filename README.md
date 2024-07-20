@@ -57,7 +57,9 @@ the user's saved directory is stored in *$HOMEDIRECTORY/**./snipper_config***
        cmake --build . --config Release
         ```
   - 
-      **Add location of executable to path**
+      **Install for system-wide usage**
+    - Linux: `cmake --install .`
+    - Windows: Add the folder containing the built *snipper.exe* to system environment variables as a new entry under PATH
     
 *** 
 
