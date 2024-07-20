@@ -34,7 +34,8 @@ Most common languages are supported, and will be auto-sorted upon creating a sni
 the user's saved directory is stored in *$HOMEDIRECTORY/**./snipper_config***
 
 ## :gear: Installation
-
+### Windows:
+Standalone executable available in Releases
 ### Build from source using cmake:
   - **clone this repository**
        ```
