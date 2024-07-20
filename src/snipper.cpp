@@ -215,7 +215,7 @@ fs::path GetConfigFilePath(){
 #ifdef _WIN32
     homeDir = fs::path(std::getenv("USERPROFILE"));
 #else
-    homeDir = fs::path(std::getenv("HOME"))
+    homeDir = fs::path(std::getenv("HOME"));
 #endif
         fs::path config_path= homeDir / ".snipper_config";
     if(!exists(config_path)){
