@@ -36,6 +36,7 @@ the user's saved directory is stored in *$HOMEDIRECTORY/**./snipper_config***
 ## :gear: Installation
 ### Windows:
 Standalone executable available in Releases
+>Downloaded executable must have its containing folder added to System Environment Variable's -> PATH.
 ### Build from source using cmake:
   - **clone this repository**
        ```
